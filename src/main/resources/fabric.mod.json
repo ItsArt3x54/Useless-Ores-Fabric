@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "useless_ores",
+	"version": "${version}",
+	"name": "Useless Ores",
+	"description": "This mod adds a lot of new ores! Ever wanted to have so much ores that you can never have all tools ? No ? Well too bad!",
+	"authors": [
+		"be.artex"
+	],
+	"contact": {
+		"sources": "https://github.com/ItsArt3x54"
+	},
+	"license": "MIT",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"be.artex.UselessOres"
+		],
+		"client": [
+			"be.artex.UselessOresClient"
+		],
+		"fabric-datagen": [
+			"be.artex.UselessOresDataGenerator"
+		]
+	},
+	"mixins": [
+		"useless_ores.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.6",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
