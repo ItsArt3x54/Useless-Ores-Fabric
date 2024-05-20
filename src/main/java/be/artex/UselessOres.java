@@ -1,5 +1,6 @@
 package be.artex;
 
+import be.artex.item.ItemUtil;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -11,6 +12,8 @@ public class UselessOres implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ItemUtil.onModInit();
+
 		LOGGER.info("Initializing " + MODID + "..." );
 	}
 }
