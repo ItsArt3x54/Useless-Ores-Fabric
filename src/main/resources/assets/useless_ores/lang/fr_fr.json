@@ -1,3 +1,8 @@
 {
-  "item.useless_ores.ruby": "Ruby"
+  "item.useless_ores.ruby": "Ruby",
+  "item.useless_ores.ruby_sword": "Epée en ruby",
+  "item.useless_ores.ruby_pickaxe": "Pioche en ruby",
+  "item.useless_ores.ruby_axe": "Hache en ruby",
+  "item.useless_ores.ruby_shovel": "Pelle en ruby",
+  "item.useless_ores.ruby_hoe": "Hoe en ruby"
 }

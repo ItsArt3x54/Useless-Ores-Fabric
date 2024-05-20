@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures":{
+    "layer0": "useless_ores:item/ruby/ruby_shovel"
+  }
+}

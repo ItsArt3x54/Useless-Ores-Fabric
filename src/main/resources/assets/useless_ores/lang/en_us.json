@@ -1,3 +1,8 @@
 {
-  "item.useless_ores.ruby": "Ruby"
+  "item.useless_ores.ruby": "Ruby",
+  "item.useless_ores.ruby_sword": "Ruby Sword",
+  "item.useless_ores.ruby_pickaxe": "Ruby Pickaxe",
+  "item.useless_ores.ruby_axe": "Ruby Axe",
+  "item.useless_ores.ruby_shovel": "Ruby Shovel",
+  "item.useless_ores.ruby_hoe": "Ruby Hoe"
 }
