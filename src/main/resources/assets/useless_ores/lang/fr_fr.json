@@ -4,5 +4,7 @@
   "item.useless_ores.ruby_pickaxe": "Pioche en ruby",
   "item.useless_ores.ruby_axe": "Hache en ruby",
   "item.useless_ores.ruby_shovel": "Pelle en ruby",
-  "item.useless_ores.ruby_hoe": "Hoe en ruby"
+  "item.useless_ores.ruby_hoe": "Hoe en ruby",
+
+  "block.useless_ores.ruby_block": "Bloc de ruby"
 }

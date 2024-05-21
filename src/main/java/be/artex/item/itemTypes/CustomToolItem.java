@@ -1,10 +1,10 @@
-package be.artex.item.itemTypes.tools;
+package be.artex.item.itemTypes;
 
 import be.artex.item.ItemGroups;
 import be.artex.item.materials.ToolMaterials;
 import net.minecraft.item.*;
 
-public enum ToolItem {
+public enum CustomToolItem implements Custom {
     RUBY_SWORD("ruby_sword",
             new Item.Settings().attributeModifiers(ShovelItem.createAttributeModifiers(ToolMaterials.RUBY, 3.25f, -2.4f)),
             ItemGroups.COMBAT, ToolMaterials.RUBY),
@@ -26,7 +26,7 @@ public enum ToolItem {
     private final ItemGroups itemGroup;
     private final ToolMaterials toolMaterial;
 
-    ToolItem(String name, Item.Settings settings, ItemGroups itemGroup, ToolMaterials toolMaterial) {
+    CustomToolItem(String name, Item.Settings settings, ItemGroups itemGroup, ToolMaterials toolMaterial) {
         this.name = name;
         this.settings = settings;
         this.itemGroup = itemGroup;

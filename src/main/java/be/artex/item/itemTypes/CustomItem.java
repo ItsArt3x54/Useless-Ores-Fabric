@@ -3,7 +3,7 @@ package be.artex.item.itemTypes;
 import be.artex.item.ItemGroups;
 import net.minecraft.item.Item;
 
-public enum CustomItem {
+public enum CustomItem implements Custom {
     RUBY("ruby", new Item.Settings(), ItemGroups.INGREDIENTS),
     ;
 
@@ -21,11 +21,12 @@ public enum CustomItem {
         return name;
     }
 
-    public ItemGroups getItemGroup() {
-        return itemGroup;
-    }
-
     public Item.Settings getSettings() {
         return settings;
+    }
+
+    @Override
+    public ItemGroups getItemGroup() {
+        return itemGroup;
     }
 }

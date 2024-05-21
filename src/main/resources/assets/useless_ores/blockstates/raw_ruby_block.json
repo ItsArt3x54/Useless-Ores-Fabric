@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "useless-ores:block/raw_ruby_block"
+    }
+  }
+}

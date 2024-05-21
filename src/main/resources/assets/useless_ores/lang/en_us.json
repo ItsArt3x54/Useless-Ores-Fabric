@@ -4,5 +4,7 @@
   "item.useless_ores.ruby_pickaxe": "Ruby Pickaxe",
   "item.useless_ores.ruby_axe": "Ruby Axe",
   "item.useless_ores.ruby_shovel": "Ruby Shovel",
-  "item.useless_ores.ruby_hoe": "Ruby Hoe"
+  "item.useless_ores.ruby_hoe": "Ruby Hoe",
+
+  "block.useless_ores.ruby_block": "Block of Ruby"
 }
